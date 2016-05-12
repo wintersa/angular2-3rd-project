@@ -2,14 +2,14 @@ import {Component} from 'angular2/core';
 import {HighlightDirective} from './highlight.directive';
 
 @Component ({
-    selector: 'my-attributes-directives',
+    selector: 'my-attribute-directives',
     template: `
-          <div myHighLight>
+          <div [myHighlight]="'red'">
               Highlight me
           </div>
           <br><br>
-          
-          <div myHighLight>
+
+          <div [myHighlight]="'blue'">
               Another Highlight
           </div>
     `,

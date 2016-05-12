@@ -4,7 +4,7 @@ import {AttributeDirectives} from './attributes-directives.component';
 @Component({
     selector: 'my-app',
     template: `
-        <my-attributes-directives></my-attributes-directives>
+        <my-attribute-directives></my-attribute-directives>
 
     `,
     directives: [AttributeDirectives]
