@@ -9,7 +9,7 @@ import {HighlightDirective} from './highlight.directive';
           </div>
           <br><br>
 
-          <div [myHighlight]="'blue'">
+          <div [myHighlight]="'purple'">
               Another Highlight
           </div>
     `,
